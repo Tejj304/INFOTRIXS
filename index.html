@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/tejicon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/tejicon.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Portfolio | Tejj</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Tejaswini Ransing</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+    
+    <!-- <p> 0024 </p> -->
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/wfh_1.svg"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+        style="height: 350px; width: 400px;"
+      />
+
+      <div style="margin-right: 10px; margin-left: 5px;">
+        <h1>Hello !!! Tejaswini is Here ❤️</h1> <br>
+        <p>By profession I'm an Engineer studying in D.Y Patil College of Engineering Akurdi , Pune. I'm a Web Developer . I have a knowledge of HTML , CSS , JS , ReactJs and Programming Languages like c++ , python , java , SQL , MySQL , Python-Django Framework etc.</p>
+        
+      </div>
+
+    </section>
+
+   
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+
+          <img
+            src="assets/icons/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          
+          <img
+            src="assets/icons/mysql.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/cpp.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/python.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">My some Mini Projects</h2>
+      <div class="projects-container">
+        
+        <div class="project-container project-card">
+          <img
+            src="assets/images/Screenshot (1151).png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Text Editor</h3>
+          <p class="project-details">
+            I created this Text Editor mini project with the help of Python Programming language. In this we are able to save our text and open our already existing file to edit it.
+          </p>
+          <!-- <a href="#" target="_blank" class="project-link">Check it Out</a> -->
+        </div>
+
+        <div class="project-container project-card">
+          <img
+            src="assets/images/Screenshot (1152).png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">To Do List</h3>
+          <p class="project-details">
+            This project is made up of Html , css and Js. In this we are able to add out daily routine titles and we can delete it also after finishing our task. <br><br><br>
+          </p>
+          <!-- <a href="#" target="_blank" class="project-link">Check it Out</a> -->
+        </div>
+
+        <div class="project-container project-card">
+          <img
+            src="assets/images/Screenshot (1153).png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+            style="height: 90px;"
+          />
+          <h3 class="project-title">Calculator</h3>
+          <p class="project-details">
+            This project is done by using Reactjs, html , css, js type of languages. In this we are able to do Addition , Substraction , Division , Multiplication type of expressions.
+          </p>
+          <!-- <a href="#" target="_blank" class="project-link">Check it Out</a> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <p style="text-align: center;">For any query contact me !!!</p> <br><br>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <!-- <form action="https://formspree.io/f/xyylnggw" method="POST"> -->
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Footer section -->
+    <footer>
+      
+      <p class="copy">
+        Built with &#x2661; by @Tejaswini
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
