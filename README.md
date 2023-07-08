@@ -10,7 +10,7 @@ A portfolio website template for campers
 
 ## Github repo
 
-This is the [link](https://github.com/Tejj304/INFOTRIXS/tree/main/Portfolio_Tejj) to the Github repo of the project
+This is the [link]([https://github.com/Tejj304/INFOTRIXS/tree/main/Portfolio_Tejj](https://github.com/Tejj304/infotrixs)) to the Github repo of the project
 
 
 
