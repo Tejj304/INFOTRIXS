@@ -8,15 +8,6 @@ A portfolio website template for campers
 
 [@Tejaswini]
 
-## Github repo
-
-
-
-This is the [link]([https://github.com/Tejj304/infotrixs]) to the Github repo of the project
-
-
-
-
 
 ## Tools Used
 HTML, CSS,  JavaSCript
